@@ -11,7 +11,7 @@ entrypoints @ file:///tmp/build/80754af9/entrypoints_1649908313000/work
 et-xmlfile==1.1.0
 executing==1.2.0
 filelock==3.9.0
-fonttools==4.38.0
+fonttools==4.61.0
 huggingface-hub==0.11.1
 idna==3.4
 ipykernel==6.17.1
@@ -66,3 +66,4 @@ typing_extensions==4.4.0
 urllib3==1.26.12
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 websockets==10.4
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
